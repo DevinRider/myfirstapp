@@ -16,6 +16,15 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    CGRect frame = CGRectMake(50, 50, 100, 100);
+    UIView *blue = [[UIView alloc] initWithFrame:frame];
+    blue.backgroundColor = [UIColor blueColor];
+    
+    [self.window addSubview:blue];
+    
+    
     return YES;
 }
 
